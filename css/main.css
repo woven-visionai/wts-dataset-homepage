@@ -461,10 +461,10 @@ button:focus {
 }
 
 #hero-area .contents p {
-  font-size: 14px;
+  font-size: 18px;
   color: #fff;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 15px;
   letter-spacing: 0.5px;
 }
 
