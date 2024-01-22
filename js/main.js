@@ -71,15 +71,20 @@
       slideSpeed: 1000,
       stopOnHover: true,
       autoPlay: true,
-      items: 2,
-      itemsDesktop : [1199,2],
-      itemsDesktopSmall: [1024, 2],
+      //items: 2,
+      //itemsDesktop : [1199,2],
+      //itemsDesktopSmall: [1024, 2],
+      items:1,
+      itemsDesktop : [1200,1],
+      itemsDesktopSmall: [1024, 1],
       itemsTablet: [600, 1],
       itemsMobile: [479, 1]
     });
 
     $('.touch-slider').find('.owl-prev').html('<i class="fa fa-chevron-left"></i>');
     $('.touch-slider').find('.owl-next').html('<i class="fa fa-chevron-right"></i>');
+
+
 
 /* 
    Sticky Nav
