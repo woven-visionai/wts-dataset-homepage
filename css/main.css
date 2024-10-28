@@ -1045,7 +1045,24 @@ button:focus {
 /* ==========================================================================
 15. Footer Style
  ========================================================================== */
-footer {
+ .privacy-policy {
+	color: #555;
+	font-size: 14px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	width: 100%;/*700px;*/
+	height: 200px;
+	overflow-y: scroll;
+	padding: 6px 12px;
+  text-align: left;
+}
+
+.check-disabled {
+	color: #afafaf;
+}
+
+
+ footer {
   background: #292f35;
   padding: 20px 0;
 }
