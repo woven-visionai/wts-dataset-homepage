@@ -322,13 +322,6 @@
           We may change this Notice from time to time, so please be sure to check back periodically. We will post any changes to this Notice on our website. If we make any changes to this Notice that materially affect our practices with regard to the personal information, we have previously collected from you, we will provide you with notice in advance of such change by highlighting the change on our website.
 
         </div>
-        <div class="privacy-comment">Confirmed the above contents and agree</div>
-        <div id="privacyCheck" class="check-disabled">
-          <label>
-            <input type="checkbox" name="privacy" value="I hereby confirmed and agreed to “WTS Dataset Terms of Use” and “WTS Dataset Privacy Notice”"　disabled>
-            I hereby confirmed and agreed to “WTS Dataset Terms of Use” and “WTS Dataset Privacy Notice”
-          </label>
-        </div>
 
     </section>
     <!-- Downloads Section End -->
@@ -402,20 +395,6 @@
     <script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.js"></script>
     <script src="js/main.js"></script>
-
-    <!--for privacy policy checkbox-->
-    <script>
-      const agree = document.getElementById('privacyPolicy');
-      const element = document.getElementById('privacyCheck');
-      const checkbox = document.querySelector("input[type='checkbox']");
-      checkbox.disabled = true;
-      agree.addEventListener('scroll', function(){
-        if(Math.abs(agree.scrollHeight - agree.clientHeight - agree.scrollTop) <= 1){
-          checkbox.disabled = false;
-          element.classList.remove('check-disabled');
-        } 
-      });
-    </script>
 
   </body>
 </html>
